@@ -33,3 +33,11 @@ th {
   font-weight: bolder;
   color: black;
 }
+/* topic component design */
+.topic-design {
+  vertical-align: top;
+  margin-top: -16px;
+}
+.topic-padding {
+  padding-bottom: 3px;
+}

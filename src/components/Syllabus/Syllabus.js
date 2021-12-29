@@ -44,8 +44,8 @@ const Syllabus = () => {
             </tr>
           </thead>
           <WeekDay viewMore={viewMore} week="1" />
-          <WeekDay viewMore={viewMore} week="1" />
-          <WeekDay viewMore={viewMore} week="1" />
+          <WeekDay viewMore={viewMore} week="2" />
+          <WeekDay viewMore={viewMore} week="3" />
         </table>
         <div style={{ textAlign: "left", paddingTop: "20px" }}>
           {viewMore === false ? (
