@@ -2,10 +2,10 @@
 
 Course Syllabus
 
-## Website Link
+## Live Website
 
-Pending
+https://course-syllabus-229.firebaseapp.com/
 
 ### Technologies
 
--React.js, React-Router, HTML5, CSS3, JSX
+-React.js, React-Router, HTML5, CSS3, JSX, Firebase
