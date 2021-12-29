@@ -8,14 +8,20 @@ const Syllabus = () => {
   const handleViewMore = () => {
     viewMore === false ? setViewMore(true) : setViewMore(false);
   };
-  let backgroundColor;
+  let backgroundColor, headingColor;
   if (viewMore === false) {
     backgroundColor = {
       backgroundColor: "white",
     };
+    headingColor = {
+      color: "black",
+    };
   } else {
     backgroundColor = {
       backgroundColor: "#3A879B",
+    };
+    headingColor = {
+      color: "white",
     };
   }
   return (
@@ -28,7 +34,7 @@ const Syllabus = () => {
       >
         <table style={{ textAlign: "left" }} cellSpacing={0}>
           <caption style={{ textAlign: "left" }}>
-            <h1 colSpan={3} style={{ color: "white" }}>
+            <h1 colSpan={3} style={headingColor}>
               The Course Syllabus
             </h1>
           </caption>
